@@ -14,17 +14,17 @@ body {
 
 header {
 	text-align: center;
-	height: 100px;
+	height: 50px;
 	background: #26456E;
 	width: 100%;
-	z-index: 12;
+	z-index: 6;
 	position: fixed;
 }
 
 .logo{
 	width:30%;
 	float: left;
-	line-height: 100px;
+	line-height: 50px;
 
 }
 
@@ -52,7 +52,7 @@ nav{
 nav a{
 	text-decoration: none;
 	font-family: Arial;
-	letter-spacing: 4px;
+	letter-spacing: 2px;
 	font-size: 12.5px;
 	margin: 0 5px;
 	color: #fff;
@@ -121,11 +121,11 @@ nav a{
 	position: relative;
 
 	background: #ddd;
-	height: 650px;
+	height: 750px;
 }
 
 .content-area h2{
-	font-family: bignoodletitling;
+	font-family: arial;
 	letter-spacing: 2px;
 	padding-top: 15px;
 	font-size: 20px;
@@ -135,13 +135,13 @@ nav a{
 .content-area p{
 	padding: 1% 0;
 	font-family: arial;
-	line-height: 30px;
+	line-height: 15px;
 }
 
 .container1 {
 	float: left;
 	width: 250px;
-	height: 480px;
+	height: 600px;
 	background-color: #fff;
 
 }
@@ -186,7 +186,7 @@ nav a{
 
 .text3 {
 	border-left: 25px solid #ddd;
-	height: 430px;
+	height: 440px;
 	display: flex;
 	background-color: #fff;
 	color: #000;
@@ -197,6 +197,35 @@ nav a{
 	font-family: Arial;
 }
 
+.text4 {
+
+	border-left: 25px solid #ddd;
+	height:35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #26456E;
+	color: #fff;
+	font-family: Arial;
+	font-size: 15px;
+	text-align: center;
+}
+
+.text5 {
+	border-left: 25px solid #ddd;
+	height: 75px;
+	background-color: #fff;
+	color: #000;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: left;
+	font-size: 12.5px;
+	font-family: Arial;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
 
 .footer {
 	position: relative;
